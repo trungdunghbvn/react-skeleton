@@ -1,0 +1,27 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "react sekeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trungdunghbvn/react-skeleton.git"
+  },
+  "keywords": [
+    "react",
+    "react-skeleton",
+    "react-content-loading",
+    "react-loading",
+    "content-loading",
+    "loading"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trungdunghbvn/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/trungdunghbvn/react-skeleton#readme"
+}
