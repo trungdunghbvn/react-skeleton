@@ -21,8 +21,21 @@ SVG-Powered component to easily create placeholder loadings (like Facebook's car
 ## Getting Started
 
 ```sh
-npm i react-skeleton --save
+npm i react-skeleton-content --save
 ```
 
 ```sh
-yarn add react-skeleton
+yarn add react-skeleton-content
+
+## SkeletonDisplayTitle
+
+```sh
+import React from 'react'
+import { SkeletonDisplayTitle } from 'react-skeleton-content'
+
+class Component extends React.Component {
+
+  render() {
+    return <SkeletonDisplayTitle />
+  }
+}
