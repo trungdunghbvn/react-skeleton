@@ -1,0 +1,36 @@
+.SkeletonDisplayTitle{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: opacity;
+    position: relative;
+    max-width: 120px;
+    animation: SkeletonShimmerAnimation .8s linear infinite alternate;
+}
+.SkeletonDisplayTitle-medium{
+    height: 32px;
+}
+.SkeletonDisplayTitle-small{
+    height: 28px;
+}
+.SkeletonDisplayTitle-large{
+    height: 44px;
+}
+.SkeletonDisplayTitle::after{
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: block;
+      background-color: #dfe3e8;
+      border-radius: 3px;
+}
+@keyframes SkeletonShimmerAnimation {
+    0% {
+      opacity: .45;
+    }
+    100% {
+      opacity: .9;
+    }
+}

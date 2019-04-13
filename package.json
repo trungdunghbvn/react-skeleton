@@ -7,7 +7,8 @@
     "test": "npm run jest && npm run eslint",
     "jest": "jest",
     "eslint": "eslint src/**/*.js",
-    "lib": "babel src -d lib",
+    "lib": "npm run clean && babel src --out-dir lib --copy-files",
+    "clean": "rm -rf lib && mkdir lib",
     "prepublish": "npm run lib",
     "docs": "npm run docs-server",
     "docs-server": "node ./scripts/docs-server",
@@ -48,7 +49,7 @@
     "react-dom": "^0.14.0 || ^15.0.0",
     "style-loader": "^0.13.0",
     "webpack": "^1.11.0",
-    "webpack-dev-server": "^1.10.1"
+    "webpack-dev-server": "^3.3.1"
   },
   "files": [
     "lib"
