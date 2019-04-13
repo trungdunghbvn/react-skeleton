@@ -21,8 +21,8 @@ SVG-Powered component to easily create placeholder loadings (like Facebook's car
 ## Getting Started
 
 ```sh
-npm i react-content-loader --save
+npm i react-skeleton --save
 ```
 
 ```sh
-yarn add react-content-loader
+yarn add react-skeleton
