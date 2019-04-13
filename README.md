@@ -29,6 +29,11 @@ class Component extends React.Component {
   }
 }
 ```
+##### Options
+
+**`size?: string`**
+
+Defaults to `small` (`small`, `medium`, `large`)
 
 **2. SkeletonBodyText:**
 
@@ -43,3 +48,8 @@ class Component extends React.Component {
   }
 }
 ```
+##### Options
+
+**`lines?: number`**
+
+Defaults to `3`.

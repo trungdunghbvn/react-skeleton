@@ -1,6 +1,6 @@
 {
   "name": "react-skeleton-content",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react skeleton",
   "main": "lib/index.js",
   "scripts": {
