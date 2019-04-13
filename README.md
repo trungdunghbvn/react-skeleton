@@ -53,3 +53,26 @@ class Component extends React.Component {
 **`lines?: number`**
 
 Defaults to `3`.
+
+**3. SkeletonThumbnail:**
+
+```jsx
+import React from 'react'
+import { SkeletonThumbnail } from 'react-skeleton-content'
+
+class Component extends React.Component {
+
+  render() {
+    return <SkeletonThumbnail />
+  }
+}
+```
+##### Options
+
+**`size?: string`**
+
+Defaults to `small` (`small`, `medium`, `large`)
+
+**`round?: boolean`**
+
+Defaults to `false`.

@@ -1,17 +1,23 @@
-.SkeletonBodyText__SkeletonBodyTextContainer {
+.SkeletonThumbnail {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   will-change: opacity;
   animation: SkeletonShimmerAnimation 0.8s linear infinite alternate;
-}
-.SkeletonBodyText {
-  height: 0.8rem;
   position: relative;
 }
-.SkeletonBodyText:last-child:not(:first-child) {
-  width: 80%;
+.SkeletonThumbnail-medium {
+  height: 60px;
+  width: 60px;
 }
-.SkeletonBodyText:after {
+.SkeletonThumbnail-small {
+  height: 40px;
+  width: 40px;
+}
+.SkeletonThumbnail-large {
+  height: 80px;
+  width: 80px;
+}
+.SkeletonThumbnail::after {
   content: "";
   position: absolute;
   top: 0;
@@ -22,8 +28,8 @@
   background-color: #dfe3e8;
   border-radius: 3px;
 }
-.SkeletonBodyText+.SkeletonBodyText {
-    margin-top: 8px;
+.SkeletonThumbnail-round::after{
+  border-radius: 50%;
 }
 @keyframes SkeletonShimmerAnimation {
   0% {

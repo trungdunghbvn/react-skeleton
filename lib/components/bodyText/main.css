@@ -1,0 +1,35 @@
+.SkeletonBodyText__SkeletonBodyTextContainer {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: opacity;
+  animation: SkeletonShimmerAnimation 0.8s linear infinite alternate;
+}
+.SkeletonBodyText {
+  height: 8px;
+  position: relative;
+}
+.SkeletonBodyText:last-child:not(:first-child) {
+  width: 80%;
+}
+.SkeletonBodyText:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  background-color: #dfe3e8;
+  border-radius: 3px;
+}
+.SkeletonBodyText+.SkeletonBodyText {
+    margin-top: 12px;
+}
+@keyframes SkeletonShimmerAnimation {
+  0% {
+    opacity: 0.45;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
