@@ -1,7 +1,7 @@
 {
-  "name": "react-skeleton",
+  "name": "react-skeleton-content",
   "version": "1.0.0",
-  "description": "react sekeleton",
+  "description": "react skeleton",
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run jest && npm run eslint",
@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/trungdunghbvn/react-skeleton/issues"
   },
-  "homepage": "https://github.com/trungdunghbvn/react-skeleton#readme",
+  "homepage": "https://trungdunghbvn.github.io/react-skeleton/",
   "devDependencies": {
     "babel-cli": "^6.8.0",
     "babel-core": "^6.10.4",
