@@ -35,6 +35,8 @@ class Component extends React.Component {
 
 Defaults to `small` (`small`, `medium`, `large`)
 
+**Still not clear?** Take a look at this working example at [codesandbox.io](https://codesandbox.io/s/n5323qv86l)
+
 **2. SkeletonBodyText:**
 
 ```jsx
@@ -53,6 +55,8 @@ class Component extends React.Component {
 **`lines?: number`**
 
 Defaults to `3`.
+
+**Still not clear?** Take a look at this working example at [codesandbox.io](https://codesandbox.io/s/n5323qv86l)
 
 **3. SkeletonThumbnail:**
 
@@ -76,3 +80,5 @@ Defaults to `small` (`small`, `medium`, `large`)
 **`round?: boolean`**
 
 Defaults to `false`.
+
+**Still not clear?** Take a look at this working example at [codesandbox.io](https://codesandbox.io/s/9j6zov3yy4)
